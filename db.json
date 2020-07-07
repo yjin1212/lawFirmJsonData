@@ -1,0 +1,875 @@
+{
+  "lawFirm": [
+    {
+      "id": 1,
+      "lawFirm_name": "Monarch",
+      "effectiveDate": "03/04/2018"
+    },
+    {
+      "id": 2,
+      "lawFirm_name": "Heartland Legal Group",
+      "effectiveDate": "03/06/2019"
+    },
+    {
+      "id": 3,
+      "lawFirm_name": "Spring Legal Group",
+      "effectiveDate": "03/04/2019"
+    },
+    {
+      "id": 4,
+      "lawFirm_name": "Slate Legal Group",
+      "effectiveDate": "09/12/2018"
+    },
+    {
+      "id": 5,
+      "lawFirm_name": "Great Lakes Law Firm",
+      "effectiveDate": "11/04/2018"
+    },
+    {
+      "id": 6,
+      "lawFirm_name": "Great Lakes Law Firm 2",
+      "effectiveDate": "11/14/2019"
+    }
+  ],
+  "lawFirmRule": [
+    {
+      "id": 1,
+      "effectiveDate": "03/04/2018",
+      "debtRangeLow": 0,
+      "debtRangeHigh": 15000,
+      "maxTerm": 24,
+      "retainer": 995,
+      "monthlyLegal": 55,
+      "service": 0.17,
+      "RAM/GCS": 10.75,
+      "settlement": 0.42,
+      "lawFirmId": 1
+    },
+    {
+      "id": 2,
+      "effectiveDate": "03/04/2018",
+      "debtRangeLow": 15000,
+      "debtRangeHigh": 29999,
+      "maxTerm": 42,
+      "retainer": 995,
+      "monthlyLegal": 55,
+      "service": 0.17,
+      "RAM/GCS": 10.75,
+      "settlement": 0.42,
+      "lawFirmId": 1
+    },
+    {
+      "id": 3,
+      "effectiveDate": "03/04/2018",
+      "debtRangeLow": 30000,
+      "debtRangeHigh": 350000,
+      "maxTerm": 48,
+      "retainer": 995,
+      "monthlyLegal": 89,
+      "service": 0.17,
+      "RAM/GCS": 10.75,
+      "settlement": 0.42,
+      "lawFirmId": 1
+    },
+    {
+      "id": 4,
+      "effectiveDate": "03/04/2018",
+      "debtRangeLow": 350000,
+      "debtRangeHigh": 500000,
+      "maxTerm": 48,
+      "retainer": 995,
+      "monthlyLegal": 89,
+      "service": 0.19,
+      "RAM/GCS": 10.75,
+      "settlement": 0.42,
+      "lawFirmId": 1
+    },
+    {
+      "id": 5,
+      "effectiveDate": "03/04/2018",
+      "debtRangeLow": 50000,
+      "debtRangeHigh": null,
+      "maxTerm": 52,
+      "retainer": 995,
+      "monthlyLegal": 89,
+      "service": 0.19,
+      "RAM/GCS": 10.75,
+      "settlement": 0.42,
+      "lawFirmId": 1
+    },
+    {
+      "id": 6,
+      "effectiveDate": "03/06/2019",
+      "debtRangeLow": 0,
+      "debtRangeHigh": 15000,
+      "maxTerm": 24,
+      "retainer": 995,
+      "monthlyLegal": 55,
+      "service": 0.17,
+      "RAM/GCS": 10.95,
+      "settlement": 0.42,
+      "lawFirmId": 2
+    },
+    {
+      "id": 7,
+      "effectiveDate": "03/06/2019",
+      "debtRangeLow": 15000,
+      "debtRangeHigh": 29999,
+      "maxTerm": 42,
+      "retainer": 995,
+      "monthlyLegal": 55,
+      "service": 0.17,
+      "RAM/GCS": 10.95,
+      "settlement": 0.42,
+      "lawFirmId": 2
+    },
+    {
+      "id": 8,
+      "effectiveDate": "03/06/2019",
+      "debtRangeLow": 30000,
+      "debtRangeHigh": 34999,
+      "maxTerm": 48,
+      "retainer": 995,
+      "monthlyLegal": 89,
+      "service": 0.17,
+      "RAM/GCS": 10.95,
+      "settlement": 0.42,
+      "lawFirmId": 2
+    },
+    {
+      "id": 9,
+      "effectiveDate": "03/04/2019",
+      "debtRangeLow": 35000,
+      "debtRangeHigh": 50000,
+      "maxTerm": 48,
+      "retainer": 995,
+      "monthlyLegal": 89,
+      "service": 0.19,
+      "RAM/GCS": 10.95,
+      "settlement": 0.42,
+      "lawFirmId": 3
+    },
+    {
+      "id": 10,
+      "effectiveDate": "09/12/2018",
+      "debtRangeLow": 50000,
+      "debtRangeHigh": null,
+      "maxTerm": 52,
+      "retainer": 995,
+      "monthlyLegal": 89,
+      "service": 0.19,
+      "RAM/GCS": 10.75,
+      "settlement": 0.42,
+      "lawFirmId": 4
+    },
+    {
+      "id": 11,
+      "effectiveDate": "11/04/2018",
+      "debtRangeLow": 0,
+      "debtRangeHigh": 15000,
+      "maxTerm": 24,
+      "retainer": 995,
+      "monthlyLegal": 55,
+      "service": 0.17,
+      "RAM/GCS": 10.95,
+      "settlement": 0.42,
+      "lawFirmId": 5
+    },
+    {
+      "id": 12,
+      "effectiveDate": "11/04/2018",
+      "debtRangeLow": 15000,
+      "debtRangeHigh": 29999,
+      "maxTerm": 42,
+      "retainer": 995,
+      "monthlyLegal": 55,
+      "service": 0.17,
+      "RAM/GCS": 10.95,
+      "settlement": 0.42,
+      "lawFirmId": 5
+    },
+    {
+      "id": 13,
+      "effectiveDate": "11/04/2018",
+      "debtRangeLow": 30000,
+      "debtRangeHigh": 34999,
+      "maxTerm": 48,
+      "retainer": 995,
+      "monthlyLegal": 89,
+      "service": 0.17,
+      "RAM/GCS": 10.95,
+      "settlement": 0.42,
+      "lawFirmId": 5
+    },
+    {
+      "id": 14,
+      "effectiveDate": "11/14/2019",
+      "debtRangeLow": 35000,
+      "debtRangeHigh": 50000,
+      "maxTerm": 48,
+      "retainer": 995,
+      "monthlyLegal": 89,
+      "service": 0.19,
+      "RAM/GCS": 10.95,
+      "settlement": 0.42,
+      "lawFirmId": 6
+    },
+    {
+      "id": 15,
+      "effectiveDate": "11/14/2019",
+      "debtRangeLow": 50000,
+      "debtRangeHigh": null,
+      "maxTerm": 52,
+      "retainer": 995,
+      "monthlyLegal": 89,
+      "service": 0.19,
+      "RAM/GCS": 10.95,
+      "settlement": 0.42,
+      "lawFirmId": 6
+    }
+  ],
+  "stateRule": [
+    {
+      "id": 1,
+      "effectiveDate": "03/04/2018",
+      "debtRangeLow": 0,
+      "debtRangeHigh": 15000,
+      "lawFirmId": 1,
+      "statesId": [17]
+    },
+    {
+      "id": 2,
+      "effectiveDate": "03/04/2018",
+      "debtRangeLow": 15000,
+      "debtRangeHigh": 29999,
+      "lawFirmId": 1,
+      "statesId": [17]
+    },
+    {
+      "id": 3,
+      "effectiveDate": "03/04/2018",
+      "debtRangeLow": 30000,
+      "debtRangeHigh": 34999,
+      "lawFirmId": 1,
+      "statesId": [17]
+    },
+    {
+      "id": 4,
+      "effectiveDate": "03/04/2018",
+      "debtRangeLow": 35000,
+      "debtRangeHigh": 50000,
+      "lawFirmId": 1,
+      "statesId": [17]
+    },
+    {
+      "id": 5,
+      "effectiveDate": "03/04/2018",
+      "debtRangeLow": 50000,
+      "debtRangeHigh": null,
+      "lawFirmId": 1,
+      "statesId": [17]
+    },
+    {
+      "id": 6,
+      "effectiveDate": "03/06/2019",
+      "debtRangeLow": 0,
+      "debtRangeHigh": 15000,
+      "lawFirmId": 2,
+      "statesId": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        21,
+        24,
+        25,
+        26,
+        27,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        59
+      ]
+    },
+    {
+      "id": 7,
+      "effectiveDate": "03/06/2019",
+      "debtRangeLow": 15000,
+      "debtRangeHigh": 29999,
+      "lawFirmId": 2,
+      "statesId": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        21,
+        24,
+        25,
+        26,
+        27,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        59
+      ]
+    },
+    {
+      "id": 8,
+      "effectiveDate": "03/06/2019",
+      "debtRangeLow": 30000,
+      "debtRangeHigh": 34999,
+      "lawFirmId": 2,
+      "statesId": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        21,
+        24,
+        25,
+        26,
+        27,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        59
+      ]
+    },
+    {
+      "id": 9,
+      "effectiveDate": "03/04/2019",
+      "debtRangeLow": 35000,
+      "debtRangeHigh": 50000,
+      "lawFirmId": 3,
+      "statesId": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        21,
+        24,
+        25,
+        26,
+        27,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        59
+      ]
+    },
+    {
+      "id": 10,
+      "effectiveDate": "09/12/2018",
+      "debtRangeLow": 50000,
+      "debtRangeHigh": null,
+      "lawFirmId": 4,
+      "statesId": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        21,
+        24,
+        25,
+        26,
+        27,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        59
+      ]
+    },
+    {
+      "id": 11,
+      "effectiveDate": "03/04/2018",
+      "debtRangeLow": 0,
+      "debtRangeHigh": 15000,
+      "lawFirmId": 5,
+      "statesId": [58]
+    },
+    {
+      "id": 12,
+      "effectiveDate": "03/04/2018",
+      "debtRangeLow": 15000,
+      "debtRangeHigh": 29999,
+      "lawFirmId": 5,
+      "statesId": [58]
+    },
+    {
+      "id": 13,
+      "effectiveDate": "03/04/2018",
+      "debtRangeLow": 30000,
+      "debtRangeHigh": 34999,
+      "lawFirmId": 5,
+      "statesId": [58]
+    },
+    {
+      "id": 14,
+      "effectiveDate": "03/04/2018",
+      "debtRangeLow": 35000,
+      "debtRangeHigh": 50000,
+      "lawFirmId": 6,
+      "statesId": [58]
+    },
+    {
+      "id": 15,
+      "effectiveDate": "03/04/2018",
+      "debtRangeLow": 50000,
+      "debtRangeHigh": null,
+      "lawFirmId": 6,
+      "statesId": [58]
+    }
+  ],
+  "states": [
+    {
+      "id": 1,
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    {
+      "id": 2,
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    {
+      "id": 3,
+      "name": "American Samoa",
+      "abbreviation": "AS"
+    },
+    {
+      "id": 4,
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    {
+      "id": 5,
+      "name": "Arkansas",
+      "abbreviation": "AR"
+    },
+    {
+      "id": 6,
+      "name": "California",
+      "abbreviation": "CA"
+    },
+    {
+      "id": 7,
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    {
+      "id": 8,
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    {
+      "id": 9,
+      "name": "Delaware",
+      "abbreviation": "DE"
+    },
+    {
+      "id": 10,
+      "name": "District Of Columbia",
+      "abbreviation": "DC"
+    },
+    {
+      "id": 11,
+      "name": "Federated States Of Micronesia",
+      "abbreviation": "FM"
+    },
+    {
+      "id": 12,
+      "name": "Florida",
+      "abbreviation": "FL"
+    },
+    {
+      "id": 13,
+      "name": "Georgia",
+      "abbreviation": "GA"
+    },
+    {
+      "id": 14,
+      "name": "Guam Gu",
+      "abbreviation": "GU"
+    },
+    {
+      "id": 15,
+      "name": "Hawaii",
+      "abbreviation": "HI"
+    },
+    {
+      "id": 16,
+      "name": "Idaho",
+      "abbreviation": "ID"
+    },
+    {
+      "id": 17,
+      "name": "Illinois",
+      "abbreviation": "IL"
+    },
+    {
+      "id": 18,
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    {
+      "id": 19,
+      "name": "Iowa",
+      "abbreviation": "IA"
+    },
+    {
+      "id": 20,
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    {
+      "id": 21,
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    {
+      "id": 22,
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    {
+      "id": 23,
+      "name": "Maine",
+      "abbreviation": "ME"
+    },
+    {
+      "id": 24,
+      "name": "Marshall Islands",
+      "abbreviation": "MH"
+    },
+    {
+      "id": 25,
+      "name": "Maryland",
+      "abbreviation": "MD"
+    },
+    {
+      "id": 26,
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    {
+      "id": 27,
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    {
+      "id": 28,
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    {
+      "id": 29,
+      "name": "Mississippi",
+      "abbreviation": "MS"
+    },
+    {
+      "id": 30,
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    {
+      "id": 31,
+      "name": "Montana",
+      "abbreviation": "MT"
+    },
+    {
+      "id": 32,
+      "name": "Nebraska",
+      "abbreviation": "NE"
+    },
+    {
+      "id": 33,
+      "name": "Nevada",
+      "abbreviation": "NV"
+    },
+    {
+      "id": 34,
+      "name": "New Hampshire",
+      "abbreviation": "NH"
+    },
+    {
+      "id": 35,
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    {
+      "id": 36,
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    {
+      "id": 37,
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    {
+      "id": 38,
+      "name": "North Carolina",
+      "abbreviation": "NC"
+    },
+    {
+      "id": 39,
+      "name": "North Dakota",
+      "abbreviation": "ND"
+    },
+    {
+      "id": 40,
+      "name": "Northern Mariana Islands",
+      "abbreviation": "MP"
+    },
+    {
+      "id": 41,
+      "name": "Ohio",
+      "abbreviation": "OH"
+    },
+    {
+      "id": 42,
+      "name": "Oklahoma",
+      "abbreviation": "OK"
+    },
+    {
+      "id": 43,
+      "name": "Oregon",
+      "abbreviation": "OR"
+    },
+    {
+      "id": 44,
+      "name": "Palau",
+      "abbreviation": "PW"
+    },
+    {
+      "id": 45,
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    {
+      "id": 46,
+      "name": "Puerto Rico",
+      "abbreviation": "PR"
+    },
+    {
+      "id": 47,
+      "name": "Rhode Island",
+      "abbreviation": "RI"
+    },
+    {
+      "id": 48,
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    {
+      "id": 49,
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    {
+      "id": 50,
+      "name": "Tennessee",
+      "abbreviation": "TN"
+    },
+    {
+      "id": 51,
+      "name": "Texas",
+      "abbreviation": "TX"
+    },
+    {
+      "id": 52,
+      "name": "Utah",
+      "abbreviation": "UT"
+    },
+    {
+      "id": 53,
+      "name": "Vermont",
+      "abbreviation": "VT"
+    },
+    {
+      "id": 54,
+      "name": "Virgin Islands",
+      "abbreviation": "VI"
+    },
+    {
+      "id": 55,
+      "name": "Virginia",
+      "abbreviation": "VA"
+    },
+    {
+      "id": 56,
+      "name": "Washington",
+      "abbreviation": "WA"
+    },
+    {
+      "id": 57,
+      "name": "West Virginia",
+      "abbreviation": "WV"
+    },
+    {
+      "id": 58,
+      "name": "Wisconsin",
+      "abbreviation": "WI"
+    },
+    {
+      "id": 59,
+      "name": "Wyoming",
+      "abbreviation": "WY"
+    }
+  ]
+}
