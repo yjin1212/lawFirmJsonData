@@ -2,33 +2,116 @@
   "lawFirm": [
     {
       "id": 1,
-      "lawFirm_name": "Monarch",
+      "name": "Monarch",
+      "active": true,
       "effectiveDate": "03/04/2018"
     },
     {
       "id": 2,
-      "lawFirm_name": "Heartland Legal Group",
+      "name": "Heartland Legal Group",
+      "active": true,
       "effectiveDate": "03/06/2019"
     },
     {
       "id": 3,
-      "lawFirm_name": "Spring Legal Group",
+      "name": "Spring Legal Group",
+      "active": true,
       "effectiveDate": "03/04/2019"
     },
     {
       "id": 4,
-      "lawFirm_name": "Slate Legal Group",
+      "name": "Slate Legal Group",
+      "active": true,
       "effectiveDate": "09/12/2018"
     },
     {
       "id": 5,
-      "lawFirm_name": "Great Lakes Law Firm",
+      "name": "Great Lakes Law Firm",
+      "active": true,
       "effectiveDate": "11/04/2018"
     },
     {
       "id": 6,
-      "lawFirm_name": "Great Lakes Law Firm 2",
+      "name": "Great Lakes Law Firm 2",
+      "active": false,
       "effectiveDate": "11/14/2019"
+    }
+  ],
+  "lawFirmStatesRule": [
+    {
+      "id": 1,
+      "lawFirmId": 1,
+      "statesId": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        21,
+        24,
+        25,
+        26,
+        27,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        40,
+        41,
+        42,
+        44,
+        45,
+        46,
+        47,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        59
+      ]
+    },
+    {
+      "id": 2,
+      "lawFirmId": 2,
+      "statesId": [17]
+    },
+    {
+      "id": 3,
+      "lawFirmId": 3,
+      "statesId": [17, 20]
+    },
+    {
+      "id": 4,
+      "lawFirmId": 4,
+      "statesId": [30]
+    },
+    {
+      "id": 5,
+      "lawFirmId": 5,
+      "statesId": [13, 15]
+    },
+    {
+      "id": 6,
+      "lawFirmId": 6,
+      "statesId": [19]
     }
   ],
   "lawFirmRule": [
@@ -228,7 +311,7 @@
       "lawFirmId": 6
     }
   ],
-  "stateRule": [
+  "statesRule": [
     {
       "id": 1,
       "effectiveDate": "03/04/2018",
