@@ -35,6 +35,18 @@
       "name": "Great Lakes Law Firm 2",
       "active": false,
       "effectiveDate": "Wed Nov 13 2019 19:00:00 GMT-0500 (Eastern Standard Time)"
+    },
+    {
+      "name": "test1",
+      "effectiveDate": "2020-07-29T22:05:02.000Z",
+      "active": true,
+      "id": 7
+    },
+    {
+      "name": "test2",
+      "effectiveDate": "2020-08-06T22:07:58.469Z",
+      "active": true,
+      "id": 8
     }
   ],
   "lawFirmStatesRule": [
@@ -91,27 +103,57 @@
     {
       "id": 2,
       "lawFirmId": 2,
-      "states": [17]
+      "states": [
+        17
+      ]
     },
     {
       "id": 3,
       "lawFirmId": 3,
-      "states": [17, 20]
+      "states": [
+        17,
+        20
+      ]
     },
     {
       "id": 4,
       "lawFirmId": 4,
-      "states": [30]
+      "states": [
+        30
+      ]
     },
     {
       "id": 5,
       "lawFirmId": 5,
-      "states": [13, 15]
+      "states": [
+        13,
+        15
+      ]
     },
     {
       "id": 6,
       "lawFirmId": 6,
-      "states": [19]
+      "states": [
+        19
+      ]
+    },
+    {
+      "lawFirmId": 7,
+      "states": [
+        35,
+        37,
+        45
+      ],
+      "id": 7
+    },
+    {
+      "lawFirmId": 8,
+      "states": [
+        45,
+        35,
+        37
+      ],
+      "id": 8
     }
   ],
   "lawFirmRule": [
@@ -309,6 +351,84 @@
       "RAM/GCS": 10.95,
       "settlement": 0.42,
       "lawFirmId": 6
+    },
+    {
+      "lawFirmId": 7,
+      "effectiveDate": "2020-07-29T22:05:02.000Z",
+      "debtRangeLow": 0,
+      "debtRangeHigh": 15000,
+      "maxTerm": 24,
+      "retainer": 995,
+      "monthlyLegal": 55,
+      "service": 0.17,
+      "RAM/GCS": 10.75,
+      "settlement": 0.42,
+      "id": 16
+    },
+    {
+      "lawFirmId": 7,
+      "effectiveDate": "2020-07-29T22:05:02.000Z",
+      "debtRangeLow": 35000,
+      "debtRangeHigh": 50000,
+      "maxTerm": 48,
+      "retainer": 995,
+      "monthlyLegal": 89,
+      "service": 0.19,
+      "RAM/GCS": "10.95",
+      "settlement": 0.42,
+      "id": 17
+    },
+    {
+      "lawFirmId": 7,
+      "effectiveDate": "2020-07-29T22:05:02.000Z",
+      "debtRangeLow": 50000,
+      "debtRangeHigh": 100000,
+      "maxTerm": 52,
+      "retainer": 995,
+      "monthlyLegal": 89,
+      "service": 0.19,
+      "RAM/GCS": 10.75,
+      "settlement": 0.42,
+      "id": 18
+    },
+    {
+      "lawFirmId": 8,
+      "effectiveDate": "2020-08-06T22:07:58.469Z",
+      "debtRangeLow": 0,
+      "debtRangeHigh": 15000,
+      "maxTerm": 24,
+      "retainer": 995,
+      "monthlyLegal": 55,
+      "service": 0.17,
+      "RAM/GCS": 10.75,
+      "settlement": 0.42,
+      "id": 19
+    },
+    {
+      "lawFirmId": 8,
+      "effectiveDate": "2020-08-06T22:07:58.469Z",
+      "debtRangeLow": 35000,
+      "debtRangeHigh": 50000,
+      "maxTerm": 48,
+      "retainer": 995,
+      "monthlyLegal": 89,
+      "service": 0.19,
+      "RAM/GCS": "10.95",
+      "settlement": 0.42,
+      "id": 20
+    },
+    {
+      "lawFirmId": 8,
+      "effectiveDate": "2020-08-06T22:07:58.469Z",
+      "debtRangeLow": 50000,
+      "debtRangeHigh": 100000,
+      "maxTerm": 52,
+      "retainer": 995,
+      "monthlyLegal": 89,
+      "service": 0.19,
+      "RAM/GCS": 10.75,
+      "settlement": 0.42,
+      "id": 21
     }
   ],
   "statesRule": [
@@ -318,7 +438,9 @@
       "debtRangeLow": 0,
       "debtRangeHigh": 15000,
       "lawFirmId": 2,
-      "states": [17]
+      "states": [
+        17
+      ]
     },
     {
       "id": 2,
@@ -326,7 +448,9 @@
       "debtRangeLow": 15000,
       "debtRangeHigh": 29999,
       "lawFirmId": 2,
-      "states": [17]
+      "states": [
+        17
+      ]
     },
     {
       "id": 3,
@@ -334,7 +458,9 @@
       "debtRangeLow": 30000,
       "debtRangeHigh": 34999,
       "lawFirmId": 2,
-      "states": [17]
+      "states": [
+        17
+      ]
     },
     {
       "id": 4,
@@ -342,7 +468,9 @@
       "debtRangeLow": 35000,
       "debtRangeHigh": 50000,
       "lawFirmId": 2,
-      "states": [17]
+      "states": [
+        17
+      ]
     },
     {
       "id": 5,
@@ -350,7 +478,9 @@
       "debtRangeLow": 50000,
       "debtRangeHigh": 100000,
       "lawFirmId": 2,
-      "states": [17]
+      "states": [
+        17
+      ]
     },
     {
       "id": 6,
@@ -570,7 +700,9 @@
       "debtRangeLow": 50000,
       "debtRangeHigh": 100000,
       "lawFirmId": 4,
-      "states": [30]
+      "states": [
+        30
+      ]
     },
     {
       "id": 11,
@@ -578,7 +710,9 @@
       "debtRangeLow": 0,
       "debtRangeHigh": 15000,
       "lawFirmId": 5,
-      "states": [13]
+      "states": [
+        13
+      ]
     },
     {
       "id": 12,
@@ -586,7 +720,9 @@
       "debtRangeLow": 15000,
       "debtRangeHigh": 29999,
       "lawFirmId": 5,
-      "states": [15]
+      "states": [
+        15
+      ]
     },
     {
       "id": 13,
@@ -594,7 +730,10 @@
       "debtRangeLow": 30000,
       "debtRangeHigh": 34999,
       "lawFirmId": 5,
-      "states": [13, 15]
+      "states": [
+        13,
+        15
+      ]
     },
     {
       "id": 14,
@@ -602,7 +741,9 @@
       "debtRangeLow": 35000,
       "debtRangeHigh": 50000,
       "lawFirmId": 6,
-      "states": [19]
+      "states": [
+        19
+      ]
     },
     {
       "id": 15,
@@ -610,7 +751,52 @@
       "debtRangeLow": 50000,
       "debtRangeHigh": 100000,
       "lawFirmId": 6,
-      "states": [19]
+      "states": [
+        19
+      ]
+    },
+    {
+      "lawFirmId": 7,
+      "effectiveDate": "2020-07-29T22:05:02.000Z",
+      "debtRangeLow": "0",
+      "debtRangeHigh": "15000",
+      "states": [
+        35
+      ],
+      "id": 16
+    },
+    {
+      "lawFirmId": 7,
+      "effectiveDate": "2020-07-29T22:05:02.000Z",
+      "debtRangeLow": "30000",
+      "debtRangeHigh": "35000",
+      "states": [
+        35,
+        37,
+        45
+      ],
+      "id": 17
+    },
+    {
+      "lawFirmId": 8,
+      "effectiveDate": "2020-08-06T22:07:58.469Z",
+      "debtRangeLow": "0",
+      "debtRangeHigh": "15000",
+      "states": [
+        45
+      ],
+      "id": 18
+    },
+    {
+      "lawFirmId": 8,
+      "effectiveDate": "2020-08-06T22:07:58.469Z",
+      "debtRangeLow": "15000",
+      "debtRangeHigh": "30000",
+      "states": [
+        35,
+        37
+      ],
+      "id": 19
     }
   ],
   "states": [
